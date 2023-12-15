@@ -55,7 +55,7 @@ const Header = () => {
                <i className="uil uil-times nav__close"></i>
             </ul>
         </div>
-        <div className="nav__toogle">
+        <div className="nav__toggle">
         <i class="uil uil-apps"></i>       
          </div>
 
