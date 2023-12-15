@@ -45,6 +45,7 @@
 .nav__link:hover{
     color: var(--title-color-dark);
 }
+
 @media screen and (max-width: 768px) {
    .header{
     top: initial;
@@ -86,10 +87,12 @@
     cursor: pointer;
     color: var(--title-color);
 }
+
 .nav__toggle{
     font-size: 1.1rem;
     cursor: pointer;
 }
+
    .nav__icon,
    .nav__close,
    .nav__toggle{
