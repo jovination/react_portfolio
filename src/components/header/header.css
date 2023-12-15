@@ -7,7 +7,7 @@
     background-color: var(--container-color);
 }
 .nav{
-    height: calc(var(--container-height) + 1.5rem);
+    height: calc(var(--header-height) + 1.5rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +24,7 @@
     font-size: var(--small-font-size );
     color: var(--title-color);
     font-weight: var(--font-medium);
+    transition: .3s;
 }
 .nav__link{
     display: flex;
